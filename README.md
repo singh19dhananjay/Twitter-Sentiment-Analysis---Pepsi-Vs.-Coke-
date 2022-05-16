@@ -3,7 +3,7 @@ Scraped Twitter to build a dataset by extracting the usernames, tweets, and hash
 
 Performed Data Cleaning of the tweets by utilizing the "NLTK" and "re" python libraries to remove URLs, emojis, non-English words, etc.
 
-Used the MapReduce functionality to perform twitter sentiment analysis. Got a bag of positive and negative words using nltk.corpus.reader.opinion_lexicon.
+Utilised the MapReduce programming model using Python to process big volumes of Twitter data and perform sentiment analysis. 
 
 Mapper - The output of the mapper gave a (key, value) pair in the format - (username, "coke/pepsi" with sentiment ratio score.
 
